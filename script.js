@@ -5,4 +5,5 @@ var the_paragraph = document.querySelector("p");
 the_Button.onclick = function () {
   the_Value = the_Input.value;
   the_paragraph.innerHTML = the_Value;
+  the_Input.value = "";
 };
